@@ -14,7 +14,7 @@ public class AutoStartingBean {
 
 	@EventListener
 	public void start(StartupEvent event) {
-		logger.debug("Starting..,");
+		logger.debug("Starting...");
 	}
 
 }
