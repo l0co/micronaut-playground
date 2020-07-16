@@ -1,3 +1,3 @@
 # Micronaut Playground
 
-A general playground for [Micronaut](https://micronaut.io/) framework.
+https://github.com/micronaut-projects/micronaut-core/issues/3742
