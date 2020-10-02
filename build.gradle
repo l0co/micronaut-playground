@@ -32,12 +32,12 @@ sourceCompatibility = 1.11
 targetCompatibility = 1.11
 
 // enable incremental processing for micronaut annotations
-kapt {
-    arguments {
-        arg("micronaut.processing.incremental", true)
-        arg("micronaut.processing.annotations", "micronaut.general.*")
-    }
-}
+//kapt {
+//    arguments {
+//        arg("micronaut.processing.incremental", true)
+//        arg("micronaut.processing.annotations", "micronaut.general.*")
+//    }
+//}
 
 compileKotlin {
     kotlinOptions {
