@@ -8,4 +8,6 @@ public class Application {
         Micronaut.run(Application.class);
     }
 
+//    public void a() {}
+
 }
