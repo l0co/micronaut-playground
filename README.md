@@ -1,6 +1,9 @@
 # Micronaut Playground
 
-https://github.com/micronaut-projects/micronaut-core/issues/3742
+# Fixed in Kotlin 1.4.255-SNAPSHOT 
+
+1. https://github.com/micronaut-projects/micronaut-core/issues/3742
+1. https://youtrack.jetbrains.com/issue/KT-40493
 
 1. Clean with `gradle clean`.
 1. Build with `gradle build; cat ./build/tmp/kapt3/classes/main/META-INF/services/io.micronaut.inject.BeanDefinitionReference`.
