@@ -89,6 +89,10 @@ test {
 }
 tasks.withType(JavaCompile){
     options.encoding = "UTF-8"
+    options.compilerArgs = [
+            '-Amicronaut.processing.incremental=true',
+            '-Amicronaut.processing.annotations=com.example.*',
+    ]
     options.compilerArgs.add('-parameters')
 }
 
