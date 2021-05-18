@@ -42,10 +42,9 @@ dependencies {
     compile "io.micronaut:micronaut-http-client"
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
 
-    compile "io.micronaut.configuration:micronaut-hibernate-jpa"
-    compile "io.micronaut.configuration:micronaut-jdbc-hikari"
+    compile 'io.micronaut.sql:micronaut-hibernate-jpa'
+    compile 'io.micronaut.sql:micronaut-jdbc-hikari'
     runtime "com.h2database:h2"
-
 
     testAnnotationProcessor "io.micronaut:micronaut-inject-java"
     testCompile "org.junit.jupiter:junit-jupiter-api"
